@@ -1,0 +1,7 @@
+.github
+.vscode
+*.test.*
+jest.*
+Makefile
+test
+wip
