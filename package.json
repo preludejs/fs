@@ -1,6 +1,6 @@
 {
   "name": "@prelude/fs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fs module.",
   "type": "module",
   "main": "./cjs/index.js",
