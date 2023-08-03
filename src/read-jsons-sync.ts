@@ -1,11 +1,17 @@
-import readStringSync from './read-string-sync.js'
-import type * as Fs from 'fs'
+import * as Fs from 'fs'
 
 export const readJsonsSync =
-  <T = unknown>(path: Fs.PathLike): T[] =>
-    readStringSync(path)
-      .split('\n')
-      .filter(_ => _.length > 0)
-      .map(_ => JSON.parse(_))
+  <T = unknown>(path: Fs.PathLike): T[] => {
+    const buffer = Fs.readFileSync(path)
+    let a = 0
+    let b = buffer.indexOf('\n')
+    const result: T[] = []
+    while (b !== -1) {
+      result.push(JSON.parse(buffer.subarray(a, b).toString()))
+      a = b + 1
+      b = buffer.indexOf('\n', a)
+    }
+    return result
+  }
 
 export default readJsonsSync
