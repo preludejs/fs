@@ -1,3 +1,17 @@
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=bugs)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=coverage)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=preludejs_fs&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=preludejs_fs)
+
+---
+
 # Fs module
 
 # Usage
