@@ -1,4 +1,3 @@
-import dfs from './dfs.js'
 import exists from './exists.js'
 import readJson from './read-json.js'
 import readJsons from './read-jsons.js'
@@ -14,12 +13,12 @@ import writeString from './write-string.js'
 import writeStringSync from './write-string-sync.js'
 
 export * from 'fs'
+export * from './dfs.js'
 
 import * as Os from 'os'
 import * as Path from 'path'
 
 export {
-  dfs,
   exists,
   readJson,
   readJsons,
