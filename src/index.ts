@@ -14,8 +14,6 @@ import writeString from './write-string.js'
 import writeStringSync from './write-string-sync.js'
 
 export * from 'fs'
-export * from './missing.js'
-export * from './missing-sync.js'
 
 import * as Os from 'os'
 import * as Path from 'path'
